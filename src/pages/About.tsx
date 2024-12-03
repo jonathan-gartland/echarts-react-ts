@@ -10,12 +10,14 @@ const TextView: FC = () => {
     <div className="w-3/5 mx-auto mt-10">
     <h1 className="text-3xl">A simple Next.js "About Page" page written using Typescript.</h1>
 
-  <div className=" rounded-lg p-10 bg-gray-100 space-y-4 text-lg border-2 border-gray-500 mt-5">
+  <div className=" rounded-lg p-10 bg-blue-100 space-y-4 text-lg border-2 border-gray-500 mt-5">
     <p>{"🙏"}{" "}Apologies for the loading delay when opening this view, I added the loading prop so I would have a page to write a
           test against for the loading state(s). Otherwise this simple text would load immediately and not steal three seconds of your time.</p>
         <p>The "Jonny's Bikes" app was built with three primary goals in mind. First to practice with django as the back end rest framework using an existing database, in order to keep my python testing skills up to speed.
             Second, utilize the echarts {"📈"} module to create some interesting visual components that could be integrated into a React App, which leads into the third goal. Practice React development to get stronger with testing, deployment, automation, etc... of React and React Native apps.
           </p>
+      <p>This example has been stripped down so it doesn't depend on an api or a backend server running somewhere accessable. The detail in the database has been collected into a list of simple json objects and I refactored the charts and table to use the list.
+      </p>
         <p>{"🚲"}{" "} My bicycle stable, collection, hoard... seemed like a nice simple dataset to use for a fun SPA. Technically the family bikes, but I take care of them.</p>
         <p>NextJS is kind of overkill for a SPA, so I added a few other views with added functionality. This About page
           and a page wittily titled Fake Age Restriction, that has an added age confirmation button. There is in fact no age
