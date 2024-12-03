@@ -7,7 +7,7 @@ interface Bike {
   year: number;
 }
 
-function HelloBike() {
+function JonnyBike() {
   const bikes = [
     {
       "model": "Backwoods",
@@ -228,4 +228,4 @@ function HelloBike() {
   );
 }
 
-export default HelloBike;
+export default JonnyBike;
