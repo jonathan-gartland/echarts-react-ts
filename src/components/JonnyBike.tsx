@@ -1,11 +1,11 @@
 
-interface Bike {
-  brand: string;
-  model: string;
-  type: string;
-  id: number;
-  year: number;
-}
+// interface Bike {
+//   brand: string;
+//   model: string;
+//   type: string;
+//   id: number;
+//   year: number;
+// }
 
 function JonnyBike() {
   const bikes = [
