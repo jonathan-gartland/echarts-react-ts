@@ -16,7 +16,7 @@ export default function Home() {
           <div style={{left: 120, justifyContent: 'center', width: '80%'}}
                className="col mt-10 space-y-5 border-2 border-gray-500 bg-blue-100 relative justify-center rounded-xl">
               <div className="text-4xl mt-5">Bikes collected over the past 30 years</div>
-              <div className="text-xl pb-4">Built with React and echarts</div>
+              <div className="text-xl pb-4">Built with NextJS and echarts</div>
           </div>
       </div>
         <div className="row mt-6">
