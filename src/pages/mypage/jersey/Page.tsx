@@ -181,7 +181,16 @@ const AucklandRL: React.FC = () => {
           alt="Ulster Jersey"
         />
         <div className="ml-8">
-          <p>Auckland Warriors Rugby League</p>
+          <p>
+            Auckland Warriors came 11th for the 1996 season, in a 20 team ARL
+            which was in a nasty competition with the upstart Super League.
+            Until the early 1990's my only exposeure to Rugby League was Andy
+            Capp comic strips. I was fortunate enough to be playing Union in the
+            mid 1990's when Wigan and Bath did a battle of codes. I never got to
+            play official league games, but many of th better teams I played for
+            as a doughy American amateur played some league in practice when
+            touch got boring.
+          </p>
         </div>
       </div>
     </div>
