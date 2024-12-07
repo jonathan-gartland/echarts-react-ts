@@ -105,7 +105,7 @@ export default function Home() {
       <div style={{ padding: 30, position: "relative" }}>
         <Img
           className="h-64 w-full rounded-lg object-cover object-center filter "
-          src={`${process.env.PUBLIC_URL}/p6pb24703805.jpg`}
+          src={`/p6pb24703805.jpg`}
           alt="Gary Fisher Hoo Koo e Koo 1998"
         />
         <h1
@@ -125,7 +125,7 @@ export default function Home() {
         <div>
           <Img
             className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width mx-6"
-            src={`/echarts-react-ts/${process.env.PUBLIC_URL}/GTTimberlineFS1996.jpg`}
+            src={`/echarts-react-ts/GTTimberlineFS1996.jpg`}
             alt="Santa Cruz Chameleon 2022"
           />
         </div>
@@ -134,7 +134,7 @@ export default function Home() {
       <About isLoading={isLoading} />
       <Img
         className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width"
-        src={`/echarts-react-ts/${process.env.PUBLIC_URL}/2022-Santa-Cruz-Chameleon-Review_12.jpg`}
+        src={`/echarts-react-ts/2022-Santa-Cruz-Chameleon-Review_12.jpg`}
         alt="Santa Cruz Chameleon 2022"
       />
       <div className="col mt-10 space-y-5 border-2 border-gray-500 bg-blue-100 relative justify-center rounded-xl component-width">
@@ -180,7 +180,7 @@ export default function Home() {
         <div>
           <Img
             className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width mx-6"
-            src={`/echarts-react-ts/${process.env.PUBLIC_URL}/GTTimberlineFS1996.jpg`}
+            src={`/echarts-react-ts/GTTimberlineFS1996.jpg`}
             alt="Santa Cruz Chameleon 2022"
           />
         </div>
@@ -191,7 +191,7 @@ export default function Home() {
 
       <Img
         className="h-96 w-full rounded-lg object-cover object-center component-width"
-        src={`/echarts-react-ts/${process.env.PUBLIC_URL}/ac6150e5-b610-4d3d-86af-1af027005b52.png`}
+        src={`/echarts-react-ts/ac6150e5-b610-4d3d-86af-1af027005b52.png`}
         alt="GT Grade 2018"
       />
     </div>
