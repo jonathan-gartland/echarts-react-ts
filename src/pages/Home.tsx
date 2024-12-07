@@ -3,7 +3,6 @@ import { Img } from "react-image";
 import PieChart from "../components/PieChart";
 import JonnyBike from "../components/JonnyBike";
 import "../global.css";
-import PieChart2 from "../components/PieChart2";
 
 interface AboutProps {
   isLoading: boolean;
@@ -46,9 +45,10 @@ const TextView: React.FC = () => {
           </p>
           <br />
           <p>
-            The "Jonny's Bikes" SPA was originally built as a full NextJS,
-            Django Rest Framework, and PostgreSQL app. Why such firepower for a
-            data set of 14+/- bikes? I had three primary goals in mind.
+            The &#34;Jonny&#39;s Bikes&#34; SPA was originally built as a full
+            NextJS, Django Rest Framework, and PostgreSQL app. Why such
+            firepower for a data set of 14+/- bikes? I had three primary goals
+            in mind.
           </p>
           <br />
           <p>
@@ -139,8 +139,7 @@ export default function Home() {
       />
       <div className="col mt-10 space-y-5 border-2 border-gray-500 bg-blue-100 relative justify-center rounded-xl component-width">
         <div className="text-4xl pb-4 mt-4 mx-48 mb-8 mt-8">
-          <span className="text-5xl">S</span>ome mildly interesting breakdowns
-          of the bike collection
+          Some mildly interesting breakdowns of the bike collection
         </div>
         <div className="row mt-6">
           <div>
