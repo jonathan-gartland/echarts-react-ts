@@ -1,0 +1,110 @@
+/* src/global.css */
+.h-96 {
+  height: 24rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-center {
+  object-position: center;
+}
+
+.filter {
+  filter: contrast(30%);
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.text-blue-100 {
+  color: #ebf8ff;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right-50 {
+  right: 50px;
+}
+
+.left-50 {
+  left: 50px;
+}
+
+.top-60 {
+  top: 60px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-gray-500 {
+  border-color: #6b7280;
+}
+
+.bg-blue-100 {
+  background-color: #ebf8ff;
+}
+
+.relative {
+  position: relative;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-xl {
+  border-radius: 1rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
