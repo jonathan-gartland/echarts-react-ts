@@ -1,8 +1,6 @@
 {
   "name": "echarts-react-ts",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://jonathan-gartland.github.io/echarts-react-ts",
   "dependencies": {
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
