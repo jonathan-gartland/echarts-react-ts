@@ -108,3 +108,8 @@
 .mt-6 {
   margin-top: 1.5rem;
 }
+.component-width {
+  width: 95%;
+  justify-content: center;
+  left: 25px;
+}

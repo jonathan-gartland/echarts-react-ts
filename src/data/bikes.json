@@ -1,148 +1,19 @@
-{
-  "bikes": [
-  {
-    "Model": "Backwoods",
-    "Brand": "GT",
-    "type": "mtb",
-    "year": 1994,
-    "material": "aluminum",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Grade",
-    "Brand": "GT",
-    "type": "gravel",
-    "year": 2016,
-    "material": "carbon",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Timberline",
-    "Brand": "GT",
-    "type": "mtb",
-    "year": 1996,
-    "material": "steel",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Grade",
-    "Brand": "GT",
-    "type": "gravel",
-    "year": 2018,
-    "material": "carbon",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Corsa 2.0",
-    "Brand": "GT",
-    "type": "road",
-    "year": 2013,
-    "material": "steel",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Chameleon",
-    "Brand": "Santa Cruz",
-    "type": "mtb",
-    "year": 2018,
-    "material": "aluminum",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Chameleon",
-    "Brand": "Santa Cruz",
-    "type": "mtb",
-    "year": 2022,
-    "material": "aluminum",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Hightower",
-    "Brand": "Santa Cruz",
-    "type": "mtb",
-    "year": 2022,
-    "material": "aluminum",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Hoo Koo e Koo",
-    "Brand": "Gary Fisher",
-    "type": "mtb",
-    "year": 1998,
-    "material": "steel",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Hoo Koo e Koo",
-    "Brand": "Gary Fisher",
-    "type": "mtb",
-    "year": 1998,
-    "material": "steel",
-    "frame only": 0,
-    "manufacture country": "TW"
-  },
-  {
-    "Model": "Paragon",
-    "Brand": "Gary Fisher",
-    "type": "mtb",
-    "year": 1996,
-    "material": "aluminum",
-    "frame only": 0,
-    "manufacture country": "US"
-  },
-  {
-    "Model": "Verailles",
-    "Brand": "Lemond",
-    "type": "road",
-    "year": 2006,
-    "material": "steel/carbon",
-    "frame only": 0,
-    "manufacture country": "US"
-  },
-  {
-    "Model": "Arrivee",
-    "Brand": "Lemond",
-    "type": "road",
-    "year": 2003,
-    "material": "titanium",
-    "frame only": 0,
-    "manufacture country": "US"
-  },
-  {
-    "Model": "Big Sur",
-    "Brand": "Gary Fisher",
-    "type": "mtb",
-    "year": 2002,
-    "material": "aluminum",
-    "frame only": 1,
-    "manufacture country": "US"
-  },
-  {
-    "Model": "Supercaliber",
-    "Brand": "Gary Fisher",
-    "type": "mtb",
-    "year": 1996,
-    "material": "carbon",
-    "frame only": 1,
-    "manufacture country": "US"
-  },
-  {
-    "Model": "Unknown",
-    "Brand": "Unknown",
-    "type": "fixed",
-    "year": 2010,
-    "material": "steel",
-    "frame only": 0,
-    "manufacture country": "CN"
-  }
+[
+  ["Model", "Brand", "Type", "Year", "Material", "Frame Only", "Manufacture Country"],
+  ["Backwoods", "GT", "mtb", 1994, "aluminum", 0, "TW"],
+  ["Grade", "GT", "gravel", 2016, "carbon", 0, "TW"],
+  ["Timberline", "GT", "mtb", 1996, "steel", 0, "TW"],
+  ["Grade", "GT", "gravel", 2018, "carbon", 0, "TW"],
+  ["Corsa 2.0", "GT", "road", 2013, "steel", 0, "TW"],
+  ["Chameleon", "Santa Cruz", "mtb", 2018, "aluminum", 0, "TW"],
+  ["Chameleon", "Santa Cruz", "mtb", 2022, "aluminum", 0, "TW"],
+  ["Hightower", "Santa Cruz", "mtb", 2022, "aluminum", 0, "TW"],
+  ["Hoo Koo e Koo", "Gary Fisher", "mtb", 1998, "steel", 0, "TW"],
+  ["Hoo Koo e Koo", "Gary Fisher", "mtb", 1998, "steel", 0, "TW"],
+  ["Paragon", "Gary Fisher", "mtb", 1996, "aluminum", 0, "US"],
+  ["Verailles", "Lemond", "road", 2006, "steel/carbon", 0, "US"],
+  ["Arrivee", "Lemond", "road", 2003, "titanium", 0, "US"],
+  ["Big Sur", "Gary Fisher", "mtb", 2002, "aluminum", 1, "US"],
+  ["Supercaliber", "Gary Fisher", "mtb", 1996, "carbon", 1, "US"],
+  ["Unknown", "Unknown", "fixed", 2010, "steel", 0, "CN"]
 ]
-}
