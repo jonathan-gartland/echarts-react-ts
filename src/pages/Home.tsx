@@ -47,9 +47,10 @@ const TextView: React.FC = () => {
           <p>
             The &#34;Jonny&#39;s Bikes&#34; SPA was originally built as a full
             NextJS, Django Rest Framework, and PostgreSQL app. Why such
-            firepower for a data set of 14+/- bikes? I had three primary goals
-            in mind.
+            firepower for a data set of 14+/- bikes?
           </p>
+          <br />
+          <p> I had three primary goals in mind.</p>
           <br />
           <p>
             First to practice with Django as the back end rest framework using
@@ -125,7 +126,7 @@ export default function Home() {
         <div>
           <Img
             className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width mx-6"
-            src={`/echarts-react-ts/GTTimberlineFS1996.jpg`}
+            src={`/GTTimberlineFS1996.jpg`}
             alt="Santa Cruz Chameleon 2022"
           />
         </div>
@@ -134,7 +135,7 @@ export default function Home() {
       <About isLoading={isLoading} />
       <Img
         className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width"
-        src={`/echarts-react-ts/2022-Santa-Cruz-Chameleon-Review_12.jpg`}
+        src={`/2022-Santa-Cruz-Chameleon-Review_12.jpg`}
         alt="Santa Cruz Chameleon 2022"
       />
       <div className="col mt-10 space-y-5 border-2 border-gray-500 bg-blue-100 relative justify-center rounded-xl component-width">
@@ -177,13 +178,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div>
-          <Img
-            className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width mx-6"
-            src={`/echarts-react-ts/GTTimberlineFS1996.jpg`}
-            alt="Santa Cruz Chameleon 2022"
-          />
-        </div>
+
         <div className="justify-center">
           <JonnyBike />
         </div>
@@ -191,7 +186,7 @@ export default function Home() {
 
       <Img
         className="h-96 w-full rounded-lg object-cover object-center component-width"
-        src={`/echarts-react-ts/ac6150e5-b610-4d3d-86af-1af027005b52.png`}
+        src={`/ac6150e5-b610-4d3d-86af-1af027005b52.png`}
         alt="GT Grade 2018"
       />
     </div>
