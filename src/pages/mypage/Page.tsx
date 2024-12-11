@@ -10,7 +10,7 @@ const Page: React.FC = () => {
             <img
               className="h-96 w-full rounded-lg object-cover object-center filter contrast-[30%]"
               // src={`${process.env.PUBLIC_URL}/2022-Santa-Cruz-Chameleon-Review_12.jpg`}
-              src={`echarts-react-ts/fakelogo.png`}
+              src={`/fakelogo.png`}
               alt="Fake Bourbon Logo"
             />
             {/*<h1 className=" mt-8 text-blue-100" style={{ fontSize: 196,  position: 'absolute', right: 50,  left: 50, top: 60}}>Jonny's Bikes</h1>*/}

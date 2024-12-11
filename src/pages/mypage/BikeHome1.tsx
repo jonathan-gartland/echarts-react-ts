@@ -1,8 +1,8 @@
 import React, { FC, useEffect, useState } from "react";
-import { Img } from "react-image";
-import PieChart from "../components/PieChart";
-import JonnyBike from "../components/JonnyBike";
-import "../global.css";
+import Image from "next/image";
+import PieChart from "../../components/PieChart";
+import JonnyBike from "../../components/JonnyBike";
+import "../../global.css";
 
 interface AboutProps {
   isLoading: boolean;
@@ -90,7 +90,7 @@ const TextView: React.FC = () => {
   );
 };
 
-export default function Home() {
+export default function BikeHome() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -104,10 +104,13 @@ export default function Home() {
   return (
     <div>
       <div style={{ padding: 30, position: "relative" }}>
-        <Img
-          className="h-64 w-full rounded-lg object-cover object-center filter "
-          src={`/p6pb24703805.jpg`}
+        <Image
+          className="h-64 w-full rounded-lg object-cover object-center filter"
+          src="/p6pb24703805.jpg"
           alt="Gary Fisher Hoo Koo e Koo 1998"
+          layout="responsive"
+          width={700}
+          height={475}
         />
         <h1
           className="mt-8 text-blue-100 absolute mx-28  -top-6"
@@ -124,19 +127,25 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <Img
-            className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width mx-6"
-            src={`/echarts-react-ts/GTTimberlineFS1996.jpg`}
-            alt="Santa Cruz Chameleon 2022"
+          <Image
+            className="h-64 w-full rounded-lg object-cover object-center filter"
+            src="/GTTimberlineFS1996.jpg"
+            alt="GT Timberline FS 1996"
+            layout="responsive"
+            width={700}
+            height={475}
           />
         </div>
       </div>
 
       <About isLoading={isLoading} />
-      <Img
-        className="mx-auto h-96 w-full rounded-xl object-cover object-center mt-6 component-width"
-        src={`/echarts-react-ts/2022-Santa-Cruz-Chameleon-Review_12.jpg`}
+      <Image
+        className="h-64 w-full rounded-lg object-cover object-center filter"
+        src="/2022-Santa-Cruz-Chameleon-Review_12.jpg"
         alt="Santa Cruz Chameleon 2022"
+        layout="responsive"
+        width={700}
+        height={475}
       />
       <div className="col mt-10 space-y-5 border-2 border-gray-500 bg-blue-100 relative justify-center rounded-xl component-width">
         <div className="text-4xl pb-4 mt-4 mx-48 mb-8 mt-8">
@@ -184,10 +193,13 @@ export default function Home() {
         </div>
       </div>
 
-      <Img
-        className="h-96 w-full rounded-lg object-cover object-center component-width"
-        src={`/echarts-react-ts/ac6150e5-b610-4d3d-86af-1af027005b52.png`}
+      <Image
+        className="h-64 w-full rounded-lg object-cover object-center filter"
+        src="/ac6150e5-b610-4d3d-86af-1af027005b52.png"
         alt="GT Grade 2018"
+        layout="responsive"
+        width={700}
+        height={475}
       />
     </div>
   );

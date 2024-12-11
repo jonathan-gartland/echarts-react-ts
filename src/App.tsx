@@ -1,10 +1,9 @@
 import React from "react";
-import Home from "./pages/Home";
-// import About from "./pages/About";
+import BikeHome from "./pages/BikeHome";
 import "./App.css";
 
 function App() {
-  return <Home />;
+  return <BikeHome />;
 }
 
 export default App;
